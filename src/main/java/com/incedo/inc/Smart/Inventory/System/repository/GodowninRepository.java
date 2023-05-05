@@ -1,0 +1,17 @@
+package com.incedo.inc.Smart.Inventory.System.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+
+import com.incedo.inc.Smart.Inventory.System.controller.entity.GodownInwardsEntity;
+
+
+
+@Repository
+
+
+
+public interface GodowninRepository extends JpaRepository<GodownInwardsEntity, Integer>{
+	
+}
